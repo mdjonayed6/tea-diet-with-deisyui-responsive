@@ -31,6 +31,11 @@
     </script>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
@@ -68,8 +73,53 @@
         </div>
     </header>
 
-    <main>
+    <main class="container mx-auto">
+        <section class="my-24 text-center">
+            <div>
+                <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+                <p class="lg:max-w-3xl mx-auto mb-10">There are many variations of passages of Lorem Ipsum available,
+                    but the
+                    majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. </p>
+            </div>
 
+            <!-- feature tea card section  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- card 1 -->
+                <div class="card p-8 bg-[#F6F6F6] shadow-xl">
+                    <figure><img src="/images/tea-1.png" alt="Milk Tea" /></figure>
+                    <div class="card-body justify-center">
+                        <h2 class="text-2xl font-bold">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card p-8 bg-[#F6F6F6] shadow-xl">
+                    <figure><img src="/images/tea-2.png" alt="Milk Tea" /></figure>
+                    <div class="card-body justify-center">
+                        <h2 class="text-2xl font-bold">Black Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card p-8 bg-[#F6F6F6] shadow-xl">
+                    <figure><img src="/images/tea-3.png" alt="Milk Tea" /></figure>
+                    <div class="card-body justify-center">
+                        <h2 class="text-2xl font-bold">Lemon Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card p-8 bg-[#F6F6F6] shadow-xl">
+                    <figure><img src="/images/tea-4.png" alt="Milk Tea" /></figure>
+                    <div class="card-body justify-center">
+                        <h2 class="text-2xl font-bold">Green Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
